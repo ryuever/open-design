@@ -17,14 +17,19 @@
     "sync:community-pets": "node --experimental-strip-types scripts/sync-community-pets.ts",
     "bake:community-pets": "node --experimental-strip-types scripts/bake-community-pets.ts",
     "seed:test-projects": "node --experimental-strip-types scripts/seed-test-projects.ts",
-    "typecheck": "pnpm -r --workspace-concurrency=1 --if-present run typecheck && tsc -p scripts/tsconfig.json --noEmit"
+    "typecheck": "pnpm -r --workspace-concurrency=1 --if-present run typecheck && tsc -p scripts/tsconfig.json --noEmit",
+    "docs:wiki:dev": "vitepress dev",
+    "docs:wiki:build": "vitepress build",
+    "docs:wiki:preview": "vitepress preview"
   },
   "devDependencies": {
     "@open-design/tools-dev": "workspace:*",
     "@open-design/tools-pack": "workspace:*",
     "@types/node": "^20.17.10",
     "tsx": "4.21.0",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "engines": {
     "node": "~24",
