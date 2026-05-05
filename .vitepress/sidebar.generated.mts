@@ -7,7 +7,20 @@ export const wikiSidebar = {
   "/architecture/": [
     {
       "text": "架构分析",
-      "items": []
+      "items": [
+        {
+          "text": "A-001 Agent Adapter 体系架构详解",
+          "link": "/architecture/20260505-agent-adapter-architecture"
+        },
+        {
+          "text": "A-002 Preview 渲染体系架构详解",
+          "link": "/architecture/20260505-preview-rendering-architecture"
+        },
+        {
+          "text": "A-003 Local CLI Agent 连接架构详解",
+          "link": "/architecture/20260506-opencode-local-cli-architecture"
+        }
+      ]
     }
   ],
   "/discussion/": [
@@ -25,7 +38,12 @@ export const wikiSidebar = {
   "/reference/": [
     {
       "text": "参考手册",
-      "items": []
+      "items": [
+        {
+          "text": "R-001 Agent 适配器速查表",
+          "link": "/reference/20260505-agent-adapter-quick-reference"
+        }
+      ]
     }
   ],
   "/roadmap/": [
@@ -40,5 +58,13 @@ export const wikiNav = [
   {
     "text": "首页",
     "link": "/INDEX"
+  },
+  {
+    "text": "架构分析",
+    "link": "/architecture/20260505-agent-adapter-architecture"
+  },
+  {
+    "text": "参考手册",
+    "link": "/reference/20260505-agent-adapter-quick-reference"
   }
 ];

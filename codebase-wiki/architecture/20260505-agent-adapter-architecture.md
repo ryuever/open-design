@@ -7,13 +7,19 @@ description: >
   acp-json-rpc / plain）的解析架构。
 category: architecture
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-06
 tags: [agent, adapter, harness, architecture, acp, streaming]
 status: draft
 references:
   - id: R-001
     rel: derives
     file: ../reference/20260505-agent-adapter-quick-reference.md
+  - id: A-002
+    rel: related-to
+    file: ./20260505-preview-rendering-architecture.md
+  - id: A-003
+    rel: related-to
+    file: ./20260506-opencode-local-cli-architecture.md
 ---
 
 # Agent Adapter 体系架构详解

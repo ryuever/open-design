@@ -42,7 +42,9 @@ features:
 
 | # | 文件 | 标题 | 概述 |
 |---|------|------|------|
-|  |  |  |  |
+| A-001 | [20260505-agent-adapter-architecture.md](./architecture/20260505-agent-adapter-architecture.md) | Agent Adapter 体系架构详解 | agent adapter 层设计：检测、适配和驱动 15 种 code agent CLI，四大流协议解析架构 |
+| A-002 | [20260505-preview-rendering-architecture.md](./architecture/20260505-preview-rendering-architecture.md) | Preview 渲染体系架构详解 | AI 生成代码的预览全链路：artifact 解析、iframe 沙箱渲染、五种渲染器、安全隔离与 Live Artifact |
+| A-003 | [20260506-opencode-local-cli-architecture.md](./architecture/20260506-opencode-local-cli-architecture.md) | Local CLI Agent 连接架构详解 | 本地 CLI agent 检测与连接：PATH 扫描、/api/chat 请求、spawn 子进程、stdin prompt 注入与 JSON 流解析 |
 
 ### discussion/ — 技术讨论
 
@@ -60,7 +62,7 @@ features:
 
 | # | 文件 | 标题 | 概述 |
 |---|------|------|------|
-|  |  |  |  |
+| R-001 | [20260505-agent-adapter-quick-reference.md](./reference/20260505-agent-adapter-quick-reference.md) | Agent 适配器速查表 | 15 个 agent CLI 适配器一览：二进制名、流格式、prompt 传递方式、默认模型与关键 flags |
 
 ### roadmap/ — 规划路线
 
